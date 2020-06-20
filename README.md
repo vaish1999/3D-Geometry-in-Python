@@ -56,7 +56,10 @@ Output-
 
 Example 4: Find the distance between the lines:  
 
-line2 = ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
+line 1 : ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
+
+
+line 2 : ![Line equation2](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
 
 
 ```python
@@ -114,9 +117,12 @@ Output-
 [-7, 5, -1]
 ```
 
-Example 8: Find the angle between the lines:            x + 3 = y - 5 = z + 6          x - 5 = y + 4 = z + 7
-						 line1:------- ------- -------  line2:------- ------- -------
-							  2       4       2		 3       5       1
+Example 8: Find the angle between the lines:    
+
+line 1 : ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
+
+
+line 2 : ![Line equation2](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
 
 ```python
 from 3dg.angle import lines
@@ -144,20 +150,19 @@ Output-
 22.207654298596495
 ```
 
-Example 10: Find the angle between the line and a plane:            x + 3 = y - 5 = z + 6    plane: x + y + z = 1
-							     line :------- ------- -------
-								      2       4       2
+Example 10: Find the angle between the line and a plane, line: ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png) plane: x + 2y + 3z = 4
+							     
 
 ```python
 from 3dg.angle import lineAndPlane
 
-lineAndPlane(line = [[0,0,0],[1,1,1]], plane = [1, 2, 3, 4])
+lineAndPlane(line = [[-3,5,-6],[2,4,2]], plane = [1, 2, 3, 4])
 ```
 
 Output-
 
 ```python
-70.52877936550934
+60.79406775260059
 ```
 
 
