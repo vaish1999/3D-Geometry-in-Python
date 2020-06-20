@@ -1,7 +1,13 @@
 # 3D-Geometry-in-Python
 Explore 3D geometry in python!
 
-This project repo will help you find out the  i. Distances between the two points,two lines and a point and a plane.  ii. Magnitude of a vector, dot product and cross product of two vectors.  iii. Angle between two lines, two planes and a line and a plane.  
+This project repo will help you find out the  
+
+i. Distances between the two points,two lines and a point and a plane.  
+
+ii. Magnitude of a vector, dot product and cross product of two vectors.  
+
+iii. Angle between two lines, two planes and a line and a plane.  
 
 Example 1: Find the distance between the points (2,1,0) and (5,1,4)
 
@@ -34,7 +40,9 @@ Output-
 ```
 
 Example 3: Find the distance between the point (1,2,3) and the line  x + 3 = y - 5 = z + 6
+								    
 								    ------- ------- -------
+								       
 								       2       4       2
 
 
