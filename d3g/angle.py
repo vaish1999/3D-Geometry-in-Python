@@ -142,7 +142,7 @@ def lineAndPlane(line = [[0,0,0],[1,1,1]], plane = [1, 2, 3, 4]):
     """
     
     plane=plane[:-1]
-    numerator=abs(dotProduct(line[1], plane)
+    numerator=abs(dotProduct(line[1], plane))
     denominator=magnitude(line[1])*magnitude(plane)
     result=numerator/denominator
     result=180*math.asin(result)/math.pi
