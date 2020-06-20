@@ -39,11 +39,7 @@ Output-
 3.5282114253639856
 ```
 
-Example 3: Find the distance between the point (1,2,3) and the line  x + 3 = y - 5 = z + 6
-								    
-								    ------- ------- -------
-								       
-								       2       4       2
+Example 3: Find the distance between the point (1,2,3) and the line  $$ \frac{x – x_1}{a} = \frac{y – y_1}{b} = \frac{z – z_1}{c} $$
 
 
 ```python
