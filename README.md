@@ -39,7 +39,7 @@ Output-
 3.5282114253639856
 ```
 
-Example 3: Find the distance between the point (1,2,3) and the line  ![equation](http://latex.codecogs.com/gif.latex?$$ \frac{x – x_1}{a} = \frac{y – y_1}{b} = \frac{z – z_1}{c} $$)
+Example 3: Find the distance between the point (1,2,3) and the line ![Image of Yaktocat](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
 
 ```python
 from 3dg.distance import pointToLine
