@@ -6,7 +6,7 @@ Created on Fri Jun 19 01:08:48 2020
 @author: Vaishakh
 """
 
-from vector import magnitude,crossProduct
+from d3g.vector import magnitude,crossProduct
 
 def _determinant(matrix = [ [1, 0, 0], [0, 1, 0], [0, 0, 1] ]):
     a=matrix[0][0]

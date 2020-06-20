@@ -7,7 +7,7 @@ Created on Sat Jun 20 12:08:41 2020
 """
 
 import math
-from vector import magnitude,dotProduct
+from d3g.vector import magnitude,dotProduct
 
 def lines(line1 = [[0,0,0],[1,1,1]],line2 = [[0,0,0],[2,2,2]]):
     """
