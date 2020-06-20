@@ -43,7 +43,8 @@ def p2p(p1=(1,1,1),p2=(0,0,0)):
               
     Example: Find the distance between the points (2,1,0) and (5,1,4)
         
-        >>from 3dg.distance import p2p
+	>>dg = __import__('3dg')          
+	>>from dg.distance import p2p
         >>p2p(p1=(2,1,0),p2=(5,1,4))
         25.0
         
@@ -86,7 +87,8 @@ def pointToPlane(p1=(0,0,0),plane=[1,1,1,1]):
                     where, point->(x1,y1,z1) and plane equation is
                     Ax1 + By1 + Cz1 - D = 0
         
-        >>from 3dg.distance import pointToPlane
+        >>dg = __import__('3dg')          
+	>>from dg.distance import pointToPlane
         >> pointToPlane(p1 = (5,2,3), plane = [2,3,4,1])
         0.9310344827586207
 
@@ -134,7 +136,8 @@ def pointToLine(p1=(0,0,0),line=[[0,0,0],[1,1,1]]):
                 
                 distance = p2p(p1,(A*k + x2, B*k + y2, C*k + z2))
                 
-        >>from 3dg.distance import pointToLine
+        >>dg = __import__('3dg')          
+	>>from dg.distance import pointToLine
         >>pointToLine(p1 = (1, 2, 3), line = [ [-3, 5, -6], [2, 4, 2] ])
         14.899105176791087        
 
@@ -193,7 +196,8 @@ def lineToLine(line1=[[0,0,0],[1,1,1]],line2=[[0,0,0],[2,2,2]]):
                 d = | (b1 x b2) . (a2 - a1) |
                      ______________________
                          | (b1 x b2) | 
-        >>from 3dg.distance import lineToLine
+        >>dg = __import__('3dg')          
+	>>from dg.distance import lineToLine
         >>lineToLine(line1 = [ [-3, 5, -6], [2, 4, 2] ], line2 = [ [5, -4, -7], [3, 5, 1] ])
         10.9577109184094
 

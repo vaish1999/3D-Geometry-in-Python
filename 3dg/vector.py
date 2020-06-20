@@ -27,7 +27,8 @@ def magnitude( vector = [1, 2, 3] ):
         Formula:
             √ ( A**2 + B**2 + C**2 )
         
-        >>from 3dg.vector import magnitude
+        >>dg = __import__('3dg')          
+	>>from dg.vector import magnitude
         >>magnitude(vector = [ 5, 3, -4 ])
         7.0710678118654755
         
@@ -60,7 +61,8 @@ def dotProduct(vector1 = [1, 2, 3], vector2 = [2, 3, 1]):
     Example:
         Find the dot product of the vectors i + 2j + 3k and 2i + 3j + k
         
-        >>from 3dg.vector import dotProduct
+        >>dg = __import__('3dg')          
+	>>from dg.vector import dotProduct
         >>dotProduct(vector1 = [1, 2, 3], vector2 = [2, 3, 1])
         11
 
@@ -93,7 +95,8 @@ def crossProduct(vector1 = [1, 2, 3], vector2 = [2, 3, 1]):
     Example:
         Find the cross product of the vectors i + 2j + 3k and 2i + 3j + k
         
-        >>from 3dg.vector import crossProduct
+        >>dg = __import__('3dg')          
+	>>from dg.vector import crossProduct
         >>crossProduct(vector1 = [1, 2, 3], vector2 = [2, 3, 1])
         [-7, 5, -1]
 

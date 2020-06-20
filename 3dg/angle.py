@@ -45,8 +45,9 @@ def lines(line1 = [[0,0,0],[1,1,1]],line2 = [[0,0,0],[2,2,2]]):
            cos θ =  | b1 . b2 |
                    ______________
                     | b1 || b2 |
-                    
-        >>from 3dg.angle import lines
+        
+	>>dg = __import__('3dg')            
+        >>from dg.angle import lines
         >>lines(line1 = [ [-3, 5, -6], [2, 4, 2] ], line2 = [ [5, -4, -7], [3, 5, 1] ])
         14.963217433307127
         
@@ -87,7 +88,8 @@ def planes(plane1 = [1, 1, 1, 1], plane2 = [1, 2, 3, 4]):
                    ______________
                     | n1 || n2 |
                     
-        >>from 3dg.angle import planes
+	>>dg = __import__('3dg')          
+	>>from dg.angle import planes
         >>planes(plane1 = [1, 1, 1, 1], plane2 = [1, 2, 3, 4])
         22.207654298596495
 
@@ -135,7 +137,8 @@ def lineAndPlane(line = [[0,0,0],[1,1,1]], plane = [1, 2, 3, 4]):
                    ______________
                     | b || n |
                     
-        >>from 3dg.angle import lineAndPlane
+	>>dg = __import__('3dg')          
+	>>from dg.angle import lineAndPlane
         >>lineAndPlane(line = [[0,0,0],[1,1,1]], plane = [1, 2, 3, 4])
         70.52877936550934
 
