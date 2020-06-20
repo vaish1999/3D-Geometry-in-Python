@@ -17,7 +17,7 @@ setup(
   url = 'https://github.com/vaish1999/3D-Geometry-in-Python',  
   download_url = 'https://github.com/vaish1999/3D-Geometry-in-Python/archive/v1.0.tar.gz',   
   keywords = ['3d', 'geometry', 'line','plane','distance','python','vision'],   
-  install_requires=['math'],
+  install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',     
     'Intended Audience :: Developers',     
