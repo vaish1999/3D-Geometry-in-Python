@@ -39,7 +39,7 @@ Output-
 3.5282114253639856
 ```
 
-Example 3: Find the distance between the point (1,2,3) and the line  ![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
+Example 3: Find the distance between the point (1,2,3) and the line  ![equation](http://latex.codecogs.com/gif.latex?Concentration%3Dfrac%7BTotalTemplate%7D%7BTotalVolume%7D)
 
 ```python
 from 3dg.distance import pointToLine
