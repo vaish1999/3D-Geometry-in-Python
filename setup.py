@@ -5,9 +5,9 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-  name = '3dg',         
-  packages = ['3dg'],   
-  version = '0.3',      
+  name = 'd3g',         
+  packages = ['d3g'],   
+  version = '0.1',      
   license='GPL 2.0',        
   description = 'Explore 3D geometry in python over here!',   
   author = 'Vaishakh Nargund',                  
@@ -15,7 +15,7 @@ setup(
   long_description=long_description,
   long_description_content_type="text/markdown",     
   url = 'https://github.com/vaish1999/3D-Geometry-in-Python',  
-  download_url = 'https://github.com/vaish1999/3D-Geometry-in-Python/archive/v1.2.tar.gz',   
+  download_url = 'https://github.com/vaish1999/3D-Geometry-in-Python/archive/v2.0.tar.gz',   
   keywords = ['3d', 'geometry', 'line','plane','distance','python','vision'],   
   install_requires=[],
   classifiers=[
