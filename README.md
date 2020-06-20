@@ -4,16 +4,10 @@ Explore 3D geometry in python!
 Installation-
 
 ```python
-pip install 3dg
+pip install d3g
 
 ```
 
-Usage- As the project name starts with a digit,
-
-```python
-dg = __import__('3dg')
-
-```
 
 This project repo will help you find out the  
 
@@ -26,7 +20,7 @@ iii. Angle between two lines, two planes and a line and a plane.
 Example 1: Find the distance between the points (2,1,0) and (5,1,4)
 
 ```python
-from dg.distance import p2p
+from d3g.distance import p2p
 
 p2p(p1=(2,1,0),p2=(5,1,4))
 
@@ -41,7 +35,7 @@ Output-
 Example 2: Find the distance between the point (1,2,3) and the plane 2x + 3y + 4z = 1
 
 ```python
-from dg.distance import pointToPlane
+from d3g.distance import pointToPlane
 
 pointToPlane(p1 = (1,2,3), plane = [2,3,4,1])
 
@@ -56,7 +50,7 @@ Output-
 Example 3: Find the distance between the point (1,2,3) and the line ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
 
 ```python
-from dg.distance import pointToLine
+from d3g.distance import pointToLine
 
 pointToLine(p1 = (1, 2, 3), line = [ [-3, 5, -6], [2, 4, 2] ])
 
@@ -77,7 +71,7 @@ line 2 : ![Line equation2](http://www.sciweavers.org/download/Tex2Img_1592677146
 
 
 ```python
-from dg.distance import lineToLine
+from d3g.distance import lineToLine
 
 lineToLine(line1 = [ [-3, 5, -6], [2, 4, 2] ], line2 = [ [5, -4, -7], [3, 5, 1] ])
 
@@ -92,7 +86,7 @@ Output-
 Example 5: Find the magnitude of the vector v = 5i + 3j - 4k
 
 ```python
-from dg.vector import magnitude
+from d3g.vector import magnitude
 
 magnitude(vector = [ 5, 3, -4 ])
 ```
@@ -106,7 +100,7 @@ Output-
 Example 6: Find the dot product of the vectors i + 2j + 3k and 2i + 3j + k
 
 ```python
-from dg.vector import dotProduct
+from d3g.vector import dotProduct
 
 dotProduct(vector1 = [1, 2, 3], vector2 = [2, 3, 1])
 ```
@@ -120,7 +114,7 @@ Output-
 Example 7: Find the cross product of the vectors i + 2j + 3k and 2i + 3j + k
 
 ```python
-from dg.vector import crossProduct
+from d3g.vector import crossProduct
 
 crossProduct(vector1 = [1, 2, 3], vector2 = [2, 3, 1])
 ```
@@ -139,7 +133,7 @@ line 1 : ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689
 line 2 : ![Line equation2](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
 
 ```python
-from dg.angle import lines
+from d3g.angle import lines
 
 lines(line1 = [ [-3, 5, -6], [2, 4, 2] ], line2 = [ [5, -4, -7], [3, 5, 1] ])
 ```
@@ -153,7 +147,7 @@ Output-
 Example 9: Find the angle between the planes, plane1: x + y + z = 1 plane2: x + 2y + 3z = 4
 
 ```python
-from dg.angle import planes
+from d3g.angle import planes
 
 planes(plane1 = [1, 1, 1, 1], plane2 = [1, 2, 3, 4])
 ```
@@ -168,7 +162,7 @@ Example 10: Find the angle between the line and a plane, line: ![Line equation1]
 							     
 
 ```python
-from dg.angle import lineAndPlane
+from d3g.angle import lineAndPlane
 
 lineAndPlane(line = [[-3,5,-6],[2,4,2]], plane = [1, 2, 3, 4])
 ```
