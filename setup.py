@@ -15,8 +15,8 @@ setup(
   long_description=long_description,
   long_description_content_type="text/markdown",     
   url = 'https://github.com/vaish1999/3D-Geometry-in-Python',  
-  download_url = 'https://github.com/vaish1999/Calculus-in-python/archive/v1.4.tar.gz',   
-  keywords = ['3d', 'geometry', 'line','plane','distance'],   
+  download_url = 'https://github.com/vaish1999/3D-Geometry-in-Python/archive/v1.0.tar.gz',   
+  keywords = ['3d', 'geometry', 'line','plane','distance','python','vision'],   
   install_requires=[],
   classifiers=[
     'Development Status :: 3 - Alpha',     
