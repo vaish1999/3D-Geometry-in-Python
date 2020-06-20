@@ -39,7 +39,7 @@ Output-
 3.5282114253639856
 ```
 
-Example 3: Find the distance between the point (1,2,3) and the line ![Image of Yaktocat](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
+Example 3: Find the distance between the point (1,2,3) and the line ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
 
 ```python
 from 3dg.distance import pointToLine
@@ -54,9 +54,9 @@ Output-
 14.899105176791087
 ```
 
-Example 4: Find the distance between the lines:         x + 3 = y - 5 = z + 6          x - 5 = y + 4 = z + 7
-						 line1:------- ------- -------  line2:------- ------- -------
-							  2       4       2		 3       5       1
+Example 4: Find the distance between the lines:  
+
+line2 = ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
 
 
 ```python
