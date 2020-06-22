@@ -47,7 +47,9 @@ Output-
 3.5282114253639856
 ```
 
-Example 3: Find the distance between the point (1,2,3) and the line ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
+Example 3: Find the distance between the point (1,2,3) and the line .. image::  http://www.sciweavers.org/download/Tex2Img_1592676689.png
+
+![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
 
 ```python
 from d3g.distance import pointToLine
