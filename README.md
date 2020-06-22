@@ -69,6 +69,8 @@ line 1 : ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/m
 
 line 2 : ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq2.png) 
 
+
+```python
 from d3g.distance import lineToLine
 
 lineToLine(line1 = [ [-3, 5, -6], [2, 4, 2] ], line2 = [ [5, -4, -7], [3, 5, 1] ])
