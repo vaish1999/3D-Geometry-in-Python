@@ -49,8 +49,6 @@ Output-
 
 Example 3: Find the distance between the point (1,2,3) and the line ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq1.png) 
 
-![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
-
 ```python
 from d3g.distance import pointToLine
 
@@ -66,13 +64,11 @@ Output-
 
 Example 4: Find the distance between the lines:  
 
-line 1 : ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
+line 1 : ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq1.png) 
 
 
-line 2 : ![Line equation2](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
+line 2 : ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq2.png) 
 
-
-```python
 from d3g.distance import lineToLine
 
 lineToLine(line1 = [ [-3, 5, -6], [2, 4, 2] ], line2 = [ [5, -4, -7], [3, 5, 1] ])
@@ -129,10 +125,10 @@ Output-
 
 Example 8: Find the angle between the lines:    
 
-line 1 : ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png)
+line 1 : ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq1.png) 
 
 
-line 2 : ![Line equation2](http://www.sciweavers.org/download/Tex2Img_1592677146.png)
+line 2 : ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq2.png) 
 
 ```python
 from d3g.angle import lines
@@ -160,7 +156,7 @@ Output-
 22.207654298596495
 ```
 
-Example 10: Find the angle between the line and a plane, line: ![Line equation1](http://www.sciweavers.org/download/Tex2Img_1592676689.png) plane: x + 2y + 3z = 4
+Example 10: Find the angle between the line and a plane, line: ![](https://raw.githubusercontent.com/vaish1999/3D-Geometry-in-Python/master/images/line_eq1.png)  plane: x + 2y + 3z = 4
 							     
 
 ```python
