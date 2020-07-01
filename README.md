@@ -1,8 +1,6 @@
 # 3D-Geometry-in-Python
 Explore 3D geometry in python!
 
-[![HitCount](http://hits.dwyl.com/vaish1999/3D-Geometry-in-Python.svg)](http://hits.dwyl.com/vaish1999/3D-Geometry-in-Python)
-
 Installation-
 
 ```python
